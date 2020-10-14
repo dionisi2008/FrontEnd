@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () =>
 function LoadAllMessage()
 {
     var LoadServer = new XMLHttpRequest();
-    LoadServer.open("POST", "/api");
+    LoadServer.open("POST", "/api/");
     LoadServer.send("Read");
     LoadServer.onload += () =>
     {

@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", () => 
+{
+    LoadAllMessage();
+    console.log("s");
+});
+
 function LoadAllMessage()
 {
     var LoadServer = new XMLHttpRequest();

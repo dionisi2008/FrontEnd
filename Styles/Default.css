@@ -1,0 +1,13 @@
+/*<textarea name="" id="AllMessage" cols="30" rows="10"></textarea>
+    <input type="text" name="" id="NewMessage">
+    <button id="SendMessage">Отправить</button>
+    */
+
+    body>textarea#AllMessage
+    {
+        margin-top: -10px;
+        margin-left: -10px;
+        height: calc(100% - 50px);   
+        width: calc(100% + 10px);
+    
+    }
